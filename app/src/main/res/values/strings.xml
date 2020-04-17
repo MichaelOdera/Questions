@@ -2,4 +2,11 @@
     <string name="app_name">Questions</string>
     <string name="my_title">my title</string>
     <string name="my_question">My Question</string>
+    <string name="question_id">Question ID</string>
+    <string name="question_title">Question Title</string>
+    <string name="question_description">Question Description</string>
+    <string name="question_body">Question Body</string>
+    <string name="posted_by">Posted By</string>
+    <string name="posted_at">Posted At</string>
+    <string name="add_answer">Add Answer</string>
 </resources>

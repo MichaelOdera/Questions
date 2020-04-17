@@ -5,6 +5,11 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
+
+@Parcel
+
 public class MyQuestionResponse {
 
     @SerializedName("id")
@@ -25,9 +30,9 @@ public class MyQuestionResponse {
     @SerializedName("poster")
     @Expose
     private Integer poster;
-    @SerializedName("tags")
-    @Expose
-    private List<Object> tags = null;
+//    @SerializedName("tags")
+//    @Expose
+//    private List<Object> tags = null;
 
     public Integer getId() {
         return id;
@@ -77,12 +82,12 @@ public class MyQuestionResponse {
         this.poster = poster;
     }
 
-    public List<Object> getTags() {
-        return tags;
-    }
-
-    public void setTags(List<Object> tags) {
-        this.tags = tags;
-    }
+//    public List<Object> getTags() {
+//        return tags;
+//    }
+//
+//    public void setTags(List<Object> tags) {
+//        this.tags = tags;
+//    }
 
 }
